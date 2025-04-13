@@ -13,8 +13,21 @@ A multi‑page React application that lets users explore countries around the wo
 - **Error Handling**: Custom error pages for API failures or bad routes.  
 - **Contact Form**: A simple contact form to collect user messages.  
 
----
+------------------------------------------------
+## 🧰 Technologies
+React with Hooks
 
+React Router v6 for client‑side routing
+
+Axios for HTTP requests
+
+Vite for fast development and build
+
+CSS Grid & Flexbox for responsive layouts
+
+React Icons for scalable vector icons
+
+-----------------------------------------
 ## 📦 Installation
 
 1. **Clone the repo**  
