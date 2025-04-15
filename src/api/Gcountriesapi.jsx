@@ -5,6 +5,11 @@ const api = axios.create({
 })
 
 //http get method
-export const getCountryFata=()=>{
-    return api.get("//all?fields=name,population,region,capital,flags")
+export const getCountryData=()=>{
+    return api.get("/all?fields=name,population,region,capital,flags")
+}
+
+//but for individual countries
+export const getCountryIndData=(name)=>{
+    return api.get(`/name/${name}?fullText=true&fields=name,population,region,subregion,capital,tld,currencies,languages,borders,flags`)
 }

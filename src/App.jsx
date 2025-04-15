@@ -7,6 +7,7 @@ import { Country } from "./pages/Country";
 import { Contact } from "./pages/Contact";
 import { About } from "./pages/About";
 import { Errorpage } from "./pages/Errorpage";
+import { CountryDetails } from "./pages/CountryDetails";
 
 
 
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: "country",
         element: <Country />,
+      },
+      {
+        path:"country/:id",
+        element:<CountryDetails/>,
       },
       {
         path: "contact",
